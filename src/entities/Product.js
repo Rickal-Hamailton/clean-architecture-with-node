@@ -1,4 +1,4 @@
-export class User {
+export class Product {
   constructor({
     id,
     name = null,
@@ -20,4 +20,4 @@ const genders = {
   MALE: 2,
 };
 
-export const userConstants = { genders }
+export const userConstants = { genders };
