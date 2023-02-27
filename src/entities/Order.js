@@ -15,5 +15,3 @@ export class Order {
     this.meta = meta;
   }
 }
-
-export const userConstants = { genders };
