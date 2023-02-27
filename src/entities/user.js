@@ -20,4 +20,4 @@ const genders = {
   MALE: 2,
 };
 
-export default userConstants = { genders }
+export const userConstants = { genders }
