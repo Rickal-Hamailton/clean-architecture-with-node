@@ -2,22 +2,18 @@ export class Product {
   constructor({
     id,
     name = null,
-    lastName = null,
-    gender = genders.NOT_SPECIFIED,
+    description = null,
+    images = [],
+    price = null,
+    color = null,
     meta,
   }) {
     this.id = id;
     this.name = name;
-    this.lastName = lastName;
-    this.gender = gender;
+    this.description = description;
+    this.images = images;
+    this.price = price;
+    this.color = color;
     this.meta = meta;
   }
 }
-
-const genders = {
-  NOT_SPECIFIED: 0,
-  FEMALE: 1,
-  MALE: 2,
-};
-
-export const userConstants = { genders };
